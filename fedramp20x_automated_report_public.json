@@ -4,7 +4,7 @@
         "cloud_Service_offering": "Command Center Platform Management SaaS",
         "deployment_environment": "AWS GovCloud (US)",
         "submission_date": "05-23-2025",
-        "contact_email": "gary.daemer@infusionpoints.com",
+        "contact_email": "devnull@infusionpoints.com",
         "submission_version": "1.0"
     },
     "submission_summary": {
@@ -19,7 +19,7 @@
             "organization_name": "Fortreum",
             "review_date": "05-23-2025",
             "assessment_summary": "3PAO reviewed the Key Security Indicator validations, evidence, and continuous monitoring, confirming alignment with FedRAMP Low 20x Phase One pilot expectations.",
-            "assessment_comment": "Best thing since sliced bread"
+            "assessment_comment": "20x better than all the others!"
         }
     },
     "ksi_validations": [
@@ -34,7 +34,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -45,7 +45,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -56,7 +56,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -67,7 +67,7 @@
                             "type": "service",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -78,7 +78,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -89,7 +89,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -100,7 +100,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
@@ -117,7 +117,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -128,7 +128,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -139,7 +139,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -150,7 +150,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -161,7 +161,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -172,7 +172,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -183,7 +183,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
@@ -200,7 +200,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -211,7 +211,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -222,7 +222,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -233,7 +233,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
@@ -250,7 +250,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -261,7 +261,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -272,7 +272,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -283,7 +283,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -294,7 +294,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -305,7 +305,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
@@ -322,7 +322,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -333,7 +333,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -344,7 +344,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -355,7 +355,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -366,7 +366,7 @@
                             "type": "Command Center",
                             "validation": "manual",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
@@ -383,7 +383,7 @@
                             "type": "document",
                             "validation": "manual",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -394,7 +394,7 @@
                             "type": "Command Center",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -405,7 +405,7 @@
                             "type": "document",
                             "validation": "manual",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -416,7 +416,7 @@
                             "type": "document",
                             "validation": "manual",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -427,7 +427,7 @@
                             "type": "document",
                             "validation": "manual",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -438,7 +438,7 @@
                             "type": "document",
                             "validation": "manual",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
@@ -455,7 +455,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -466,7 +466,7 @@
                             "type": "command center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -477,18 +477,18 @@
                             "type": "command center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
                 {
-                    "KSI-3IR.4": "Confirm that third party information resources have a Secure Software Development KSI validation status with CISA",
+                    "KSI-3IR.4": "Confirm that third party information resources have a Secure Software Development ksi_validation_status with CISA",
                     "props": [
                         {
                             "type": "command center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -499,7 +499,7 @@
                             "type": "command center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
@@ -516,7 +516,7 @@
                             "type": "Command Center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -527,7 +527,7 @@
                             "type": "Command Center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
@@ -544,7 +544,7 @@
                             "type": "Command Center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -555,7 +555,7 @@
                             "type": "service",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -566,7 +566,7 @@
                             "type": "Command Center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -577,7 +577,7 @@
                             "type": "Command Center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -588,7 +588,7 @@
                             "type": "SIEM",
                             "validation": "automatic",
                             "evidence": "live",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 },
@@ -599,7 +599,7 @@
                             "type": "Command Center",
                             "validation": "document",
                             "evidence": "review",
-                            "ksi validation status": "true"
+                            "ksi_validation_status": "true"
                         }
                     ]
                 }
