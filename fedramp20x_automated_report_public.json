@@ -1,0 +1,609 @@
+{
+    "csp_information": {
+        "cloud_Service_provider": "InfusionPoints, LLC ",
+        "cloud_Service_offering": "Command Center Platform Management SaaS",
+        "deployment_environment": "AWS GovCloud (US)",
+        "submission_date": "05-23-2025",
+        "contact_email": "gary.daemer@infusionpoints.com",
+        "submission_version": "1.0"
+    },
+    "submission_summary": {
+        "rationale": "FedRAMP 20x Phase One submission based on RFC-0006",
+        "audit_level": {
+            "FedRAMP": "Moderate",
+            "DoD_CC_SRG": "Impact Level 4",
+            "commercial_audit": "ISO 27001:2022",
+            "A2LA": "ISO 17020:2012"
+        },
+        "3pao_summary": {
+            "organization_name": "Fortreum",
+            "review_date": "05-23-2025",
+            "assessment_summary": "3PAO reviewed the Key Security Indicator validations, evidence, and continuous monitoring, confirming alignment with FedRAMP Low 20x Phase One pilot expectations.",
+            "assessment_comment": "Best thing since sliced bread"
+        }
+    },
+    "ksi_validations": [
+        {
+            "id": "KSI-CNA",
+            "description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system.",
+            "validations": [
+                {
+                    "KSI-CNA.1": "Have denial of service (DoS) protection",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CNA.2": "Configure firewalls/proxy servers to limit inbound and outbound traffic",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CNA.3": "Use immutable containers and serverless functions with strictly defined functionality and privileges",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CNA.4": "Design systems as logically segmented micro-services to minimize the attack surface and lateral movement if compromised",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CNA.5": "Use cloud native virtual networks and related capabilities to enforce logical traffic flow controls",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CNA.6": "Execute continuous scanning of cloud native system components",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CNA.7": "Use high availability design principles to maximize uptime",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "KSI-SC",
+            "description": "A secure cloud service offering will enforce the use of approved cryptography, continuously verify component integrity, and restrict access to external services.",
+            "validations": [
+                {
+                    "KSI-SC1": "Harden and review network and system configurations",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-SC2": "Encrypt all network traffic",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-SC3": "Encrypt all federal and sensitive information at rest",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-SC4": "Manage configuration centrally",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-SC5": "Enforce system and component integrity through cryptographic means",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-SC6": "Use a key management capability to execute regular rotation of digital keys",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-SC7": "Use a consistent, risk-informed approach for applying security patches",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "KSI-IAM",
+            "description": "A secure cloud service offering will protect user data, control access, and implement zero trust practices.",
+            "validations": [
+                {
+                    "KSI-IAM.1": "Enforce phishing-resistant multi-factor authentication (MFA)",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-IAM.2": "Enforce strong passwords",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-IAM.3": "Use secure API authentication methods via industry standard protocols",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-IAM.4": "Use a least-privileged, role-based, and just-in-time security model",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "KSI-MLA",
+            "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes.",
+            "validations": [
+                {
+                    "KSI-MLA.1": "Operate a Security Information and Event Management (SIEM) system for centralized, tamper-resistent event, activity, and change logging",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-MLA.2": "Regularly review and audit logs",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-MLA.3": "Rapidly detect and remediate or mitigate vulnerabilities",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-MLA.4": "Perform authenticated vulnerability scanning on publicly accessible components",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-MLA.5": "Perform Infrastructure as Code (IaC) and configuration scanning",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-MLA.6": "Centrally track and prioritize the remediation of identified vulnerabilities",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "KSI-CM",
+            "description": "A secure cloud service provider will ensure that all system changes are properly documented and configuration baselines are updated accordingly.",
+            "validations": [
+                {
+                    "KSI-CM.1": "Log and monitor system modifications",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CM.1": "Execute changes though redeployment of version controlled immutable resources rather than direct modification wherever possible",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CM.2": "Implement automated testing and validation of changes prior to deployment",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CM.3": "Have a documented change management procedure",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CM.4": "Evaluate the risk and potential impact of any change",
+                    "props": [
+                        {
+                            "type": "Command Center",
+                            "validation": "manual",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "KSI-PI",
+            "description": "A secure cloud service offering will have intentional, organized, universal guidance for how every asset, including personnel, is secured.",
+            "validations": [
+                {
+                    "KSI-PI.1": "Have an up-to-date asset inventory or code defining all deployed assets",
+                    "props": [
+                        {
+                            "type": "document",
+                            "validation": "manual",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-PI.2": "Have policies outlining their security objectives",
+                    "props": [
+                        {
+                            "type": "Command Center",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-PI.3": "Maintain a vulnerability disclosure program",
+                    "props": [
+                        {
+                            "type": "document",
+                            "validation": "manual",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-PI.4": "Build security considerations into the Software Development Lifecycle (SDLC) and aligning with Secure By Design principles",
+                    "props": [
+                        {
+                            "type": "document",
+                            "validation": "manual",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-PI.5": "Document methods used to automatically evaluate implementations",
+                    "props": [
+                        {
+                            "type": "document",
+                            "validation": "manual",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-PI.6": "Have a dedicated staff and budget for security",
+                    "props": [
+                        {
+                            "type": "document",
+                            "validation": "manual",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "KSI-3IR",
+            "description": "A secure cloud service offering will understand, monitor, and manage supply chain risks from third party services or components.",
+            "validations": [
+                {
+                    "KSI-3IR.1": "Regularly confirm that services storing Federal information are all FedRAMP authorized and securely configured",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-3IR.2": "Identify and prioritize potential supply chain risks",
+                    "props": [
+                        {
+                            "type": "command center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-3IR.3": "Obtain a Software Bill of Materials (SBOM) for third party commercial software components",
+                    "props": [
+                        {
+                            "type": "command center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-3IR.4": "Confirm that third party information resources have a Secure Software Development KSI validation status with CISA",
+                    "props": [
+                        {
+                            "type": "command center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-3IR.5": "Implement zero trust design principles",
+                    "props": [
+                        {
+                            "type": "command center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "KSI-CE",
+            "description": "A secure cloud service provider will continuously educate their employees on cybersecurity measures, testing them regularly to ensure their knowledge is satisfactory.",
+            "validations": [
+                {
+                    "KSI-CE.1": "Ensure all employees receive security awareness training",
+                    "props": [
+                        {
+                            "type": "Command Center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-CE.2": "Require role-specific training for high risk roles",
+                    "props": [
+                        {
+                            "type": "Command Center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "KSI-IR",
+            "description": "A secure cloud service offering will maintain, test, and execute effective Incident Response Plans for routine incidents such as vulnerability discovery, abnormal activity detection, and exfiltration of data.",
+            "validations": [
+                {
+                    "KSI-IR.1": "Define Recovery Time Objective (RTO) and Recovery Point Objective (RPO)",
+                    "props": [
+                        {
+                            "type": "Command Center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-IR.2": "Perform system backups aligned with the RTO and RPO",
+                    "props": [
+                        {
+                            "type": "service",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-IR.3": "Test the capability to recover from incidents and contingencies",
+                    "props": [
+                        {
+                            "type": "Command Center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-IR.4": "Report incidents according to federal requirements",
+                    "props": [
+                        {
+                            "type": "Command Center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-IR.5": "Maintain a log of incidents and periodically review past incidents for patterns or vulnerabilities",
+                    "props": [
+                        {
+                            "type": "SIEM",
+                            "validation": "automatic",
+                            "evidence": "live",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                },
+                {
+                    "KSI-IR.6": "Measure Mean Time To Detect (MTTD) and Mean Time To Resolution (MTTR) for incidents",
+                    "props": [
+                        {
+                            "type": "Command Center",
+                            "validation": "document",
+                            "evidence": "review",
+                            "ksi validation status": "true"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
