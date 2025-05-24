@@ -26,6 +26,9 @@ Our submission consists of three outputs:
 | [KSI-IR.py](KSI-IR.py)   | Example of a technical validation (check)    |
 | [3PAO KSI Methods Letter](InfusionPoints-FedRAMP_20x_KSIs-Methods-Letter-05232025.pdf)  | 3PAO Letter attestesting to our validation methods |
 
+## 3PAO Review and Digital Signing
+This draft submission package has been reviewed by Fortreum, the designated 3PAO for this engagement. As part of our validation process, we are testing digital signing capabilities using PGP keys to ensure the integrity and authenticity of submission artifacts.
+
 ### Audit Shield Dashboard
 ![Audit Shield](img/cc_auditshield.png)
 
